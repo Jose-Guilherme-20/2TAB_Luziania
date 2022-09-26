@@ -1,0 +1,229 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+#conteudo {
+  width: 100%;
+}
+.menu {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(98, 98, 160);
+  align-items: center;
+}
+.title {
+  display: flex;
+  align-items: center;
+}
+.menu img {
+  margin-right: 10px;
+  width: 80px;
+  height: 80px;
+}
+.menu p {
+  font-size: 18pt;
+}
+.title {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info span {
+  margin: 10px;
+  font-size: 15pt;
+}
+.wpp,
+.number {
+  display: flex;
+  align-items: center;
+}
+.menu-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: rgb(53, 45, 45);
+}
+.container-menu ul {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+}
+.container-menu ul li {
+  padding: 15px;
+}
+.container-menu ul li a {
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+}
+.container-menu ul li a:hover {
+  border-bottom: 1px solid white;
+}
+.img-carrossel img {
+  width: 100%;
+}
+
+/* Container Selo */
+.container-selo {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.btn-consulta {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 219);
+}
+.btn-consulta-title {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.btn-consulta-title h2 {
+  width: 100%;
+  margin-top: 15px;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.imgs-selo {
+  width: 100%;
+}
+.imgs-selo img {
+  width: 100%;
+}
+.img2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.img2 img {
+  width: 350px;
+}
+.btn-selo {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.btn-consulta button {
+  display: flex;
+  align-items: center;
+  width: 20vw;
+  height: 10vh;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  background-color: rgb(98, 98, 160);
+  color: white;
+  border-radius: 10px;
+}
+.button {
+  border: 5px solid black;
+  display: flex;
+}
+.btn-consulta button img {
+  margin-right: 45px;
+}
+.btn-consulta button a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+/* CONTATO */
+.container-contato {
+  background-color: rgb(98, 98, 160);
+  color: white;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.conteudo-form {
+  width: 100%;
+  max-width: 500px;
+}
+.conteudo-form h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.conteudo-form form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.conteudo-form form input,
+textarea {
+  border: 4px solid black;
+  padding: 15px;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.btn-submit {
+  cursor: pointer;
+  max-width: 150px;
+  font-size: 1.4em;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin: 20px;
+}
+.conteudo-local h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+/* conteudo info */
+.container-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+}
+.container-info div {
+  display: flex;
+  align-items: center;
+}
+.container-info div img {
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 590px) {
+  .info {
+    display: none;
+  }
+  .container-selo {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-contato {
+    display: flex;
+    flex-direction: column;
+  }
+}

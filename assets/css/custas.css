@@ -1,0 +1,31 @@
+.container-custas {
+  font-size: 1.6rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+.tabela-de-custo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+}
+.tabela-de-custo button {
+  background-color: black;
+  margin-top: 15px;
+  font-size: 1.4rem;
+  width: 150px;
+  height: 45px;
+  border-radius: 10px;
+}
+.tabela-de-custo span {
+  margin-top: 10px;
+}
+.tabela-de-custo a {
+  text-decoration: none;
+  padding: 12px 35px;
+  color: white;
+}
