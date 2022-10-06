@@ -1,0 +1,31 @@
+.container-contato {
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.btn-wpp button,
+.btn-telefone button {
+  margin-top: 5px;
+  width: 10rem;
+  height: 2rem;
+  border: 1px solid red;
+  border-radius: 8px;
+}
+.btn-wpp button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #25d366;
+  color: white;
+}
+.btn-wpp button img,
+.btn-telefone img {
+  width: 1.8rem;
+}
+.btn-telefone button {
+  display: flex;
+  align-items: center;
+}
