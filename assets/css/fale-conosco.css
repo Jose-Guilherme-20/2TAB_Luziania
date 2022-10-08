@@ -8,16 +8,15 @@
 }
 .btn-wpp button,
 .btn-telefone button {
-  margin-top: 5px;
-  width: 10rem;
-  height: 2rem;
+  margin-top: 0.4rem;
+  width: 15rem;
+  height: 3rem;
   border: 1px solid red;
-  border-radius: 8px;
+  border-radius: 0.6rem;
 }
 .btn-wpp button {
   display: flex;
   align-items: center;
-  text-align: center;
   background-color: #25d366;
   color: white;
 }

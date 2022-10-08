@@ -7,6 +7,7 @@
 }
 #conteudo {
   width: 100%;
+  overflow: hidden;
 }
 .menu {
   width: 100%;
@@ -21,12 +22,12 @@
   align-items: center;
 }
 .menu img {
-  margin-right: 10px;
-  width: 80px;
-  height: 80px;
+  margin-right: 0.8rem;
+  width: 5rem;
+  height: 5rem;
 }
 .menu p {
-  font-size: 18pt;
+  font-size: 1.5rem;
 }
 .title {
   width: auto;
@@ -39,8 +40,8 @@
   align-items: center;
 }
 .info span {
-  margin: 10px;
-  font-size: 15pt;
+  margin: 1.2rem;
+  font-size: 1rem;
 }
 .wpp,
 .number {
@@ -60,11 +61,11 @@
   text-decoration: none;
 }
 .container-menu ul li {
-  padding: 15px;
+  padding: 1rem;
 }
 .container-menu ul li a {
   text-decoration: none;
-  margin: 10px;
+  margin: 0.8rem;
   color: white;
 }
 .container-menu ul li a:hover {
@@ -78,7 +79,7 @@
 .container-selo {
   width: 100%;
   height: auto;
-  margin-top: 10px;
+  margin-top: 0.8rem;
   display: flex;
   justify-content: center;
 }
@@ -96,16 +97,20 @@
 }
 .btn-consulta-title h2 {
   width: 100%;
-  margin-top: 15px;
+  margin-top: 1rem;
   font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 .imgs-selo {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .imgs-selo img {
-  width: 100%;
+  width: 18rem;
+  max-width: 31rem;
 }
 .img2 {
   display: flex;
@@ -113,7 +118,7 @@
   width: 100%;
 }
 .img2 img {
-  width: 350px;
+  width: 21rem;
 }
 .btn-selo {
   text-align: center;
@@ -124,20 +129,21 @@
 .btn-consulta button {
   display: flex;
   align-items: center;
-  width: 20vw;
+  width: 18rem;
   height: 10vh;
   font-size: 1.5rem;
-  margin-top: 10px;
+  margin-top: 0.8em;
   background-color: rgb(98, 98, 160);
   color: white;
-  border-radius: 10px;
+  border-radius: 0.8rem;
 }
 .button {
-  border: 5px solid black;
+  border: 0.4rem solid black;
   display: flex;
 }
+
 .btn-consulta button img {
-  margin-right: 45px;
+  margin-right: 3rem;
 }
 .btn-consulta button a {
   display: flex;
@@ -154,14 +160,15 @@
   background-color: rgb(98, 98, 160);
   color: white;
   width: 100%;
+
   overflow: hidden;
-  margin-top: 20px;
+  margin-top: 2rem;
   display: flex;
   justify-content: space-evenly;
 }
 .conteudo-form {
   width: 100%;
-  max-width: 500px;
+  max-width: 31rem;
 }
 .conteudo-form h2 {
   text-align: center;
@@ -179,20 +186,31 @@
 textarea {
   border: 4px solid black;
   padding: 1em;
-  width: 100%;
+  width: 25rem;
   height: 3rem;
-  margin-top: 20px;
+  margin-bottom: 2.5rem;
   font-size: 1.2rem;
 }
 
 .btn-submit {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
-  max-width: 150px;
+  max-width: 10rem;
   font-size: 1.4em;
   background-color: black;
   color: white;
-  border-radius: 10px;
-  margin: 20px;
+  border-radius: 0.8rem;
+}
+
+.container-iframe {
+  width: 27rem;
+  height: 21rem;
+}
+.conteudo-local iframe {
+  margin-top: 5rem;
 }
 .conteudo-local h2 {
   text-align: center;
@@ -211,7 +229,13 @@ textarea {
   align-items: center;
 }
 .container-info div img {
-  margin-right: 8px;
+  margin-right: 0.6rem;
+}
+.mobile-menu {
+  display: none;
+}
+.mobile-menu-icon {
+  display: none;
 }
 
 @media screen and (max-width: 590px) {
@@ -228,5 +252,25 @@ textarea {
   }
   .container-info {
     display: none;
+  }
+  .container-menu {
+    display: none;
+  }
+  .title {
+    flex-direction: column;
+  }
+  .container-selo {
+    flex-direction: column;
+  }
+  .menu-left p,
+  span {
+    font-size: 0.8rem;
+  }
+  .btn-consulta {
+    max-width: 15rem;
+    margin: auto;
+  }
+  header {
+    flex-direction: column;
   }
 }

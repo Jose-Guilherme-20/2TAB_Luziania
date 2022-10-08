@@ -47,6 +47,24 @@
             </li>
           </ul>
         </div>
+        <div class="mobile-menu-icon">
+          <button onclick="menuShow()">
+            <img
+              class="icon"
+              src="./assets/img responsividade/menu_white_36dp.svg"
+            />
+          </button>
+        </div>
+      
+
+      <div class="mobile-menu">
+        <ul>
+          <li><a href="#"></a>home</li>
+          <li><a href="#"></a>habilidades</li>
+          <li><a href="#"></a>sobre mim</li>
+          <li><a href="#"></a>projetos</li>
+        </ul>
+      </div>
       </section>
       <!-- Fim links Menu-->
       <section class="container-carrossel">
@@ -60,13 +78,14 @@
       <!-- fim Carrossel-->
       <section class="container-selo">
         <div class="imgs-selo">
-          <img
+          <div class="img1"><img
             src="./assets/imagens/selo-digital.jpg"
             alt="consultar selo por meio digital"
           />
-          <div class="img2">
+          <div class="img2"></div>
+          
             <ul>
-              <li
+              <li class="texto-exemplo"
                 style="
                   font-size: 1.2em;
                   font-family: Arial, Helvetica, sans-serif;
@@ -99,20 +118,20 @@
         <div class="conteudo-form">
           <h2>Fale com a gente!</h2>
           <form action="">
-            <input type="text" placeholder="Nome" />
-            <input type="text" placeholder="Sobrenome" />
-            <input type="tel" placeholder="Telefone" />
-            <input type="text" placeholder="Assunto" />
-            <textarea placeholder="Mensagem"></textarea>
+            <input type="text" placeholder="Nome" required/>
+            <input type="text" placeholder="Sobrenome" required/>
+            <input type="tel" placeholder="Telefone" required/>
+            <input type="text" placeholder="Assunto" required/>
+            <textarea placeholder="Mensagem" required></textarea >
             <input class="btn-submit" type="submit" placeholder="Enviar" />
           </form>
         </div>
+        <hr>
         <div class="conteudo-local">
           <h2>Nossa localização!</h2>
-          <iframe
+          <iframe class="container-iframe"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3830.2919889258137!2d-47.958994682556146!3d-16.256798799999988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93599850d688ed85%3A0xb83ad8453ad398ca!2sTabelionato%202%C2%BA%20de%20Notas!5e0!3m2!1spt-BR!2sbr!4v1662607018866!5m2!1spt-BR!2sbr"
-            width="500"
-            height="400"
+            
             style="border: 0"
             allowfullscreen=""
             loading="lazy"
@@ -146,5 +165,6 @@
         </div>
       </section>
     </div>
+  </div>
   </body>
 </html>

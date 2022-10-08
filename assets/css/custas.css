@@ -1,31 +1,38 @@
 .container-custas {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+
+  height: 53vh;
+  text-align: justify;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 30px 0;
+}
+.container-custas span {
+  font-size: 1.4rem;
 }
 .tabela-de-custo {
+  width: 100%;
   display: flex;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 500px;
+  max-width: 31rem;
 }
 .tabela-de-custo button {
   background-color: black;
-  margin-top: 15px;
+  margin-top: 1rem;
   font-size: 1.4rem;
-  width: 150px;
-  height: 45px;
-  border-radius: 10px;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 0.8rem;
 }
 .tabela-de-custo span {
-  margin-top: 10px;
+  margin-top: 0.8rem;
 }
 .tabela-de-custo a {
   text-decoration: none;
-  padding: 12px 35px;
+  padding: 0.9rem 2.3rem;
   color: white;
 }
