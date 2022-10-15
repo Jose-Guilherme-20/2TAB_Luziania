@@ -262,9 +262,12 @@ textarea {
   .container-selo {
     flex-direction: column;
   }
+  .menu-left h1 {
+    text-align: center;
+  }
   .menu-left p,
   span {
-    font-size: 0.8rem;
+    font-size: 1.4rem;
   }
   .btn-consulta {
     max-width: 15rem;
@@ -272,5 +275,61 @@ textarea {
   }
   header {
     flex-direction: column;
+  }
+  .mobile-menu-icon {
+    display: block;
+  }
+  .mobile-menu-icon img {
+    height: 7vh;
+  }
+  .mobile-menu-icon button {
+    background-color: black;
+    background-color: transparent;
+    margin-right: 10px;
+  }
+  .menu-links {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .open {
+    display: block;
+  }
+
+  .mobile-menu ul {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30%;
+    padding-bottom: 1rem;
+  }
+  .mobile-menu ul li {
+    margin: 15px;
+    list-style-type: none;
+  }
+
+  .mobile-menu {
+    position: relative;
+    margin-top: 70px;
+    margin-right: 75px;
+    width: 100%;
+    height: 80vh;
+  }
+  .mobile-menu a {
+    text-decoration: none;
+    color: rgb(245, 237, 237);
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  .mobile-menu a:hover {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .conteudo-form {
+    display: none;
+  }
+  .formulario {
+    display: block;
   }
 }

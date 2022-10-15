@@ -1,5 +1,21 @@
 .container-servicos {
   width: 100%;
   display: flex;
+  max-width: 56rem;
+  margin: auto;
   justify-content: center;
+  align-items: center;
+}
+.container-servicos h1 {
+  text-align: center;
+}
+.container-servicos ul li {
+  font-size: 1.4rem;
+  text-align: justify;
+}
+@media screen and (max-width: 590px) {
+  .container-servicos ul li {
+    margin-left: 1.4rem;
+    margin-top: 8px;
+  }
 }

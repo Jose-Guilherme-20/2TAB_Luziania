@@ -8,6 +8,7 @@
 }
 .container-pilares h2 {
   text-align: center;
+  text-decoration: underline;
   margin-top: 0.8rem;
   font-size: 2em;
 }
@@ -16,4 +17,6 @@
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-bottom: 4px solid black;
+  margin-bottom: 3px;
 }
