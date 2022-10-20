@@ -91,13 +91,17 @@
           </button>
         </div>
         <div class="conteudo-form formulario">
-          <form action="">
+          <form action="https://formsubmit.co/your@email.com" method="post">
             <label>Email</label>
-            <input type="text" placeholder="Nome" required />
-            <input type="text" placeholder="Sobrenome" required />
-            <input type="tel" placeholder="Telefone" required />
-            <input type="text" placeholder="Assunto" required />
-            <textarea required placeholder="Mensagem"></textarea>
+            <input type="text" name="nome" placeholder="Nome" required />
+            <input type="email" name="email" placeholder="E-mail" required />
+            <input type="tel" name="telefone" placeholder="Telefone" required />
+            <input type="text" name="assunto" placeholder="Assunto" required />
+            <textarea
+              name="mensagem"
+              required
+              placeholder="Mensagem"
+            ></textarea>
             <input class="btn-submit" type="submit" placeholder="Enviar" />
           </form>
         </div>
