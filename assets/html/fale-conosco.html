@@ -79,20 +79,25 @@
       </section>
       <!-- fim Carrossel-->
       <section class="container-contato">
-        <h2>Fale com a gente!</h2>
         <div class="btn-wpp">
-          <button>
-            <img src="/assets/imagens/icon-wpp.png" alt="" /> Whatsapp
-          </button>
+          <a
+            href="https://web.whatsapp.com/send?phone=5561995747342"
+            target="_blank"
+          >
+            <button>
+              <img src="/assets/imagens/icon-wpp.png" alt="" /> Whatsapp
+            </button></a
+          >
         </div>
         <div class="btn-telefone">
-          <button>
-            <img src="/assets/imagens/icon-phone.png" alt="" /> telefone
-          </button>
+          <a href="tel:+556136213802"
+            ><button>
+              <img src="/assets/imagens/icon-phone.png" alt="" /> Telefone
+            </button></a
+          >
         </div>
         <div class="conteudo-form formulario">
           <form action="https://formsubmit.co/your@email.com" method="post">
-            <label>Email</label>
             <input type="text" name="nome" placeholder="Nome" required />
             <input type="email" name="email" placeholder="E-mail" required />
             <input type="tel" name="telefone" placeholder="Telefone" required />
@@ -102,7 +107,12 @@
               required
               placeholder="Mensagem"
             ></textarea>
-            <input class="btn-submit" type="submit" placeholder="Enviar" />
+            <input
+              id="bt-submit"
+              class="btn-submit"
+              type="submit"
+              placeholder="Enviar"
+            />
           </form>
         </div>
       </section>
