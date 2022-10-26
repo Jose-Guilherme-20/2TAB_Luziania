@@ -12,7 +12,9 @@
 .container-servicos ul li {
   font-size: 1.4rem;
   text-align: justify;
+  margin: 8px 0 8px 0;
 }
+
 @media screen and (max-width: 590px) {
   .container-servicos ul li {
     margin-left: 1.4rem;
