@@ -241,6 +241,19 @@ textarea {
 .mobile-menu-icon {
   display: none;
 }
+/* Pagina de Agradecimento */
+.caixa-agradecimento {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 60vh;
+}
+.caixa-agradecimento p,
+span {
+  font-size: 2.5rem;
+  text-align: center;
+}
 
 @media screen and (max-width: 590px) {
   .info {
@@ -335,5 +348,15 @@ textarea {
   }
   .formulario {
     display: block;
+  }
+  .caixa-agradecimento {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+  }
+  .caixa-agradecimento p,
+  span {
+    font-size: 2.5rem;
   }
 }
