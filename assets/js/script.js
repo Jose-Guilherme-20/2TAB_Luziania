@@ -15,3 +15,16 @@ function menuShow() {
     tam.style.height = "auto";
   }
 }
+const imgs = document.querySelector("#img-carrossel");
+const img = document.querySelectorAll("#img-carrossel img");
+
+let idx = 0;
+
+function carrossel() {
+  idx++;
+  if (idx > img.length - 1) {
+    idx = 0;
+  }
+  imgs.style.transform = `translateX(${-idx * 92}%)`;
+}
+setInterval(carrossel, 5000);

@@ -254,6 +254,21 @@ textarea {
   font-size: 2.5rem;
   text-align: center;
 }
+/*Carrossel de imagens  */
+.container-carrossel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+#img-carrossel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX();
+}
+.img-carrossel img {
+  object-fit: cover;
+}
 
 @media screen and (max-width: 590px) {
   .info {
