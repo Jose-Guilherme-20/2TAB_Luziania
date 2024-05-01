@@ -8,10 +8,10 @@
       name="description"
       content="Cartório, 2° Tabelionato de Notas de Luziânia - GO, Endereço: R. Dr. Ézio Carneiro - St. Aeroporto, Luziânia - GO, 72800-420 - Centro. O titular cartorário é Marinalva Aparecida de Santana. O horário de atendimento do cartório é De 2ª a 6ª feira, das 8h às 17h. Cartório 2° de notas Luziânia-GO"
     />
-    " />
+
     <link rel="icon" type="image/png" href="/assets/imagens/favicon.ico" />
     <link rel="stylesheet" href="/assets/css/style.css" />
-    <link rel="stylesheet" href="/assets/css/servicos.css" />
+    <link rel="stylesheet" href="/assets/css/faleConosco.css" />
     <title>2° Tabelionato de Notas</title>
   </head>
   <body>
@@ -34,7 +34,7 @@
           </div>
           <div class="number">
             <img src="/assets/imagens/icon-phone.png" alt="logo-telefone" />
-            <p>61 3621-3802</p>
+            <p>61 3601-1368</p>
           </div>
         </div>
       </header>
@@ -43,15 +43,16 @@
         <div class="container-menu">
           <ul>
             <li><a href="/index.html">Inicio</a></li>
-            <li><a href="quem-somos.html">Quem somos</a></li>
+            <li><a href="quemSomos.html">Quem somos</a></li>
             <li><a href="custas.html">Custas</a></li>
-            <li><a href="serviços.html">Serviços</a></li>
-            <li><a href="fale-conosco.html">Fale conosco</a></li>
+            <li><a href="servicos.html">servicos</a></li>
+            <li><a href="faleConosco.html">Fale conosco</a></li>
             <li>
-              <a href="duvidas-frequentes.html">Duvidas frequentes</a>
+              <a href="duvidasFrequentes.html">Duvidas frequentes</a>
             </li>
           </ul>
         </div>
+
         <div class="mobile-menu-icon">
           <button onclick="menuShow()">
             <img class="icon" src="/assets/imagens/menu_white_36dp.svg" />
@@ -61,12 +62,12 @@
         <div class="mobile-menu">
           <ul>
             <li><a href="/index.html">Inicio</a></li>
-            <li><a href="/assets/html/quem-somos.html">Quem somos</a></li>
+            <li><a href="/assets/html/quemSomos.html">Quem somos</a></li>
             <li><a href="/assets/html/custas.html">Custas</a></li>
-            <li><a href="/assets/html/serviços.html">Serviços</a></li>
-            <li><a href="/assets/html/fale-conosco.html">Fale conosco</a></li>
+            <li><a href="/assets/html/servicos.html">servicos</a></li>
+            <li><a href="/assets/html/faleConosco.html">Fale conosco</a></li>
             <li>
-              <a href="/assets/html/duvidas-frequentes.html"
+              <a href="/assets/html/duvidasFrequentes.html"
                 >Duvidas frequentes</a
               >
             </li>
@@ -87,33 +88,67 @@
         </div>
       </section>
       <!-- fim Carrossel-->
-      <section class="container-servicos">
-        <div>
-          <h1>Quais os serviços do Tabelionato?</h1>
-          <ul>
-            <li>
-              Abertura de Firma(Obrigatório para reconhecimento de assinatura)
-            </li>
-            <li>Reconhecimento de assinatura</li>
-            <li>Autenticação de documentos</li>
-            <li>Procuração Pública</li>
-            <li>Escrituras Públicas(em geral)</li>
-          </ul>
+      <section class="container-contato">
+        <div class="btn-wpp">
+          <a
+            href="https://web.whatsapp.com/send?phone=556195240370"
+            target="_blank"
+          >
+            <button>
+              <img src="/assets/imagens/icon-wpp.png" alt="numero=whatsapp" />
+              Whatsapp
+            </button></a
+          >
+        </div>
+        <div class="btn-telefone">
+          <a href="tel:+556136011368"
+            ><button>
+              <img src="/assets/imagens/icon-phone.png" alt="imagem-telefone" />
+              Telefone
+            </button></a
+          >
+        </div>
+        <div class="conteudo-form formulario">
+          <form
+            action="https://formsubmit.co/contato@2tabluziania.com.br"
+            method="post"
+          >
+            <input type="text" name="nome" placeholder="Nome" required />
+            <input type="email" name="email" placeholder="E-mail" required />
+            <input type="tel" name="telefone" placeholder="Telefone" required />
+            <input type="text" name="assunto" placeholder="Assunto" required />
+            <textarea
+              name="mensagem"
+              required
+              placeholder="Mensagem"
+            ></textarea>
+            <input
+              type="hidden"
+              name="_next"
+              value="http://www.2tabluziania.com.br/thanks.html"
+            />
+            <input
+              id="bt-submit"
+              class="btn-submit"
+              type="submit"
+              placeholder="Enviar"
+            />
+          </form>
         </div>
       </section>
+
       <!-- Fim de Fale conosco-->
       <section class="container-info">
         <div class="caixa-email">
           <img src="/assets/imagens/email.png" alt="email-cartorio" />
-          <p>contato@2tabluziania.com.br/p></p>
+          <p>contato@2tabluziania.com.br</p>
         </div>
-
         <div class="caixa-phone">
           <img
             src="/assets/imagens/phone_icon-icons.com_66151.png"
             alt="numero-cartorio"
           />
-          <p>61 3621-3802</p>
+          <p>61 3601-1368</p>
         </div>
         <div class="caixa-localizacao">
           <img
@@ -127,17 +162,6 @@
         </div>
       </section>
     </div>
-
-    <a
-      href="https://web.whatsapp.com/send?phone=556195240370"
-      target="_blank"
-      style="position: fixed; bottom: 20px; right: 30px"
-    >
-      <img
-        src="/assets/imagens/icon-wpp.png"
-        alt="fale-conosco-pelo-Whatsapp"
-      />
-    </a>
     <script src="/assets/js/script.js"></script>
     <script src="/assets/js/responsividade.js"></script>
   </body>
